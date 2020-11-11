@@ -15,5 +15,7 @@ public class Main {
         customer.addRental(rental3);
 
         System.out.println(customer.statement());
+        System.out.println("*************************");
+        System.out.println(customer.htmlStatement());
     }
 }
